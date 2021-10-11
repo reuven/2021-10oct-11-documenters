@@ -3,6 +3,8 @@
 #  we write API documentation in Python in "docstrings"
 #  meaning: if a string (text) is the first line of a function, that the doc
 
+import icecream
+
 def hello(name):
     """A friendly function for anyone wanting a friendly greeting
 
@@ -15,3 +17,6 @@ def hello(name):
 
 
 print(hello('Reuven'))
+
+s1 = icecream.Scoop('chocolate')
+print(s1.flavor)
