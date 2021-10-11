@@ -19,6 +19,10 @@ class Bowl:
     """Models a bowl of ice cream, in which the scoops are
     stored in a list, known as "self.scoops"
     """
+    # special methods/functions/data in Python, that is known
+    # to be a part of internal protocols, get double underscore
+    # before and after the word -- known in Python as "dunder"
+    # so this method is known as "dunder init"
     def __init__(self):
         self.scoops = []
 
