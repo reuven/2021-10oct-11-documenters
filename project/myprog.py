@@ -20,3 +20,6 @@ print(hello('Reuven'))
 
 s1 = icecream.Scoop('chocolate')
 print(s1.flavor)
+b = icecream.Bowl()
+b.add_scoop(s1)
+b.add_scoop(s2)
