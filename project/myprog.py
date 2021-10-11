@@ -4,9 +4,13 @@
 #  meaning: if a string (text) is the first line of a function, that the doc
 
 def hello(name):
-    """This is the most amazing function ever written!
+    """A friendly function for anyone wanting a friendly greeting
 
-    So great, it gets a two-line docstring!"""
+    Expects: A string, assigned to name
+    Modifies: Nothing at all
+    Returns: A string, with a friendly greeting
+    
+    """
     return f'Hello, {name}!'
 
 
