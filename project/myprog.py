@@ -9,7 +9,7 @@ def hello(name):
     Expects: A string, assigned to name
     Modifies: Nothing at all
     Returns: A string, with a friendly greeting
-    
+
     """
     return f'Hello, {name}!'
 
