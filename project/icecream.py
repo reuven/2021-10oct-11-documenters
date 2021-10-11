@@ -1,3 +1,8 @@
+"""Ice cream module
+
+Contains classes all about ice cream, well known to be nature's perfect food.
+"""
+
 # This new file is a "module" -- a file containing
 # Python code that others can also use.  (Known in other
 # languages as a "library")
@@ -6,10 +11,14 @@
 # that I can then create new "instances" of
 
 class Scoop:
+    """Models one scoop of ice cream, with a flavor."""
     def __init__(self, flavor):   # here, we set the attributes of the scoop
         self.flavor = flavor
 
 class Bowl:
+    """Models a bowl of ice cream, in which the scoops are
+    stored in a list, known as "self.scoops"
+    """
     def __init__(self):
         self.scoops = []
 
