@@ -23,6 +23,7 @@ class Bowl:
         self.scoops = []
 
     def add_scoop(self, one_scoop):
+        """Adds one scoop to our bowl"""
         self.scoops.append(one_scoop)
 
 # only execute this stuff if we're running icecream.py
