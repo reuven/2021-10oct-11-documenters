@@ -26,6 +26,10 @@ class Bowl:
         """Adds one scoop to our bowl"""
         self.scoops.append(one_scoop)
 
+    # private methods are marked with a leading _
+    def _empty_bowl(self):
+        self.scoops = []
+
 # only execute this stuff if we're running icecream.py
 # as a program.  Ignore below this line if we import it
 # as a module.
